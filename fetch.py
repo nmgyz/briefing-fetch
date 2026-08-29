@@ -16,12 +16,13 @@ SOURCES = [
     ("BBC World", "https://feeds.bbci.co.uk/news/world/rss.xml"),
     ("Google News", "https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en"),
     ("卫报", "https://www.theguardian.com/world/rss"),
-    ("CNN", "http://rss.cnn.com/rss/edition_world.rss"),
+    ("CNN", "https://rss.cnn.com/rss/edition_world.rss"),
     ("纽约时报", "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"),
     ("半岛电视台", "https://www.aljazeera.com/xml/rss/all.xml"),
     ("德国之声", "https://rss.dw.com/rdf/rss-en-top"),
     ("France24", "https://www.france24.com/en/rss"),
-    ("路透", "https://www.reutersagency.com/feed/?best-topics=hot-topics&post_type=best"),
+    # 路透官方 RSS 已停用，改用 Google News 站点搜索中转（内容均来自 reuters.com）
+    ("路透", "https://news.google.com/rss/search?q=site:reuters.com&hl=en-US&gl=US&ceid=US:en"),
 ]
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
