@@ -23,6 +23,9 @@ SOURCES = [
     ("France24", "https://www.france24.com/en/rss"),
     # 路透官方 RSS 已停用，改用 Google News 站点搜索中转（内容均来自 reuters.com）
     ("路透", "https://news.google.com/rss/search?q=site:reuters.com&hl=en-US&gl=US&ceid=US:en"),
+    # 2026-11-06 新增事实性优先源
+    ("联合国新闻中文", "https://news.un.org/feed/subscribe/zh/news/all/rss.xml"),
+    ("华尔街日报 World", "https://feeds.content.dowjones.io/public/rss/RSSWorldNews"),
 ]
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
